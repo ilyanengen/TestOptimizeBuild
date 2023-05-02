@@ -29,6 +29,18 @@
 		7FA83AE72A012F58004276EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE62A012F58004276EE /* SnapKit */; };
 		7FA83AEA2A012FC6004276EE /* Color in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE92A012FC6004276EE /* Color */; };
 		7FA83AED2A012FFF004276EE /* Cache in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AEC2A012FFF004276EE /* Cache */; };
+		7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AEF2A0130B0004276EE /* Algorithms */; };
+		7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF22A0130FE004276EE /* CameraManager */; };
+		7FA83AF62A013147004276EE /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF52A013147004276EE /* SwiftDate */; };
+		7FA83AF92A013161004276EE /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF82A013161004276EE /* Starscream */; };
+		7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AFB2A0131B5004276EE /* SwiftySound */; };
+		7FA83AFF2A013201004276EE /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AFE2A013201004276EE /* Nuke */; };
+		7FA83B012A013201004276EE /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B002A013201004276EE /* NukeExtensions */; };
+		7FA83B032A013201004276EE /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B022A013201004276EE /* NukeUI */; };
+		7FA83B052A013201004276EE /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B042A013201004276EE /* NukeVideo */; };
+		7FA83B082A013242004276EE /* SCNLine in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B072A013242004276EE /* SCNLine */; };
+		7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B0A2A01328D004276EE /* CalendarKit */; };
+		7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B0D2A0132AD004276EE /* FloatingPanel */; };
 		7FACFE6829FAB61A00896B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6729FAB61A00896B3D /* AppDelegate.swift */; };
 		7FACFE6A29FAB61A00896B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6929FAB61A00896B3D /* SceneDelegate.swift */; };
 		7FACFE6C29FAB61A00896B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6B29FAB61A00896B3D /* ViewController.swift */; };
@@ -79,25 +91,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA83ABE2A01298D004276EE /* SwiftyJSON in Frameworks */,
+				7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */,
 				7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */,
+				7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */,
 				7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */,
 				7FA83ADB2A012D15004276EE /* Haptica in Frameworks */,
 				7FA83ABB2A01292F004276EE /* Moya in Frameworks */,
+				7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */,
 				7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */,
 				7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */,
+				7FA83B052A013201004276EE /* NukeVideo in Frameworks */,
 				7FA83AB82A011DC0004276EE /* libwebp in Frameworks */,
 				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
+				7FA83AF92A013161004276EE /* Starscream in Frameworks */,
 				7FA83AE72A012F58004276EE /* SnapKit in Frameworks */,
 				7FA83AA92A011101004276EE /* Promises in Frameworks */,
+				7FA83B012A013201004276EE /* NukeExtensions in Frameworks */,
+				7FA83B032A013201004276EE /* NukeUI in Frameworks */,
 				7FA83AED2A012FFF004276EE /* Cache in Frameworks */,
 				7FA83AD82A012CB7004276EE /* RealmSwift in Frameworks */,
+				7FA83B082A013242004276EE /* SCNLine in Frameworks */,
+				7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */,
 				7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */,
 				7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */,
 				7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */,
 				7FA83AEA2A012FC6004276EE /* Color in Frameworks */,
 				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
 				7FA83AB52A011BCF004276EE /* Reachability in Frameworks */,
+				7FA83AFF2A013201004276EE /* Nuke in Frameworks */,
 				7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */,
+				7FA83AF62A013147004276EE /* SwiftDate in Frameworks */,
+				7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */,
 				7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */,
 				7FA83AA62A0110BB004276EE /* Kingfisher in Frameworks */,
 			);
@@ -210,6 +234,18 @@
 				7FA83AE62A012F58004276EE /* SnapKit */,
 				7FA83AE92A012FC6004276EE /* Color */,
 				7FA83AEC2A012FFF004276EE /* Cache */,
+				7FA83AEF2A0130B0004276EE /* Algorithms */,
+				7FA83AF22A0130FE004276EE /* CameraManager */,
+				7FA83AF52A013147004276EE /* SwiftDate */,
+				7FA83AF82A013161004276EE /* Starscream */,
+				7FA83AFB2A0131B5004276EE /* SwiftySound */,
+				7FA83AFE2A013201004276EE /* Nuke */,
+				7FA83B002A013201004276EE /* NukeExtensions */,
+				7FA83B022A013201004276EE /* NukeUI */,
+				7FA83B042A013201004276EE /* NukeVideo */,
+				7FA83B072A013242004276EE /* SCNLine */,
+				7FA83B0A2A01328D004276EE /* CalendarKit */,
+				7FA83B0D2A0132AD004276EE /* FloatingPanel */,
 			);
 			productName = TestOptimizeBuild;
 			productReference = 7FACFE6429FAB61A00896B3D /* TestOptimizeBuild.app */;
@@ -306,6 +342,15 @@
 				7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */,
 				7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */,
 				7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */,
+				7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+				7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */,
+				7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				7FA83AF72A013161004276EE /* XCRemoteSwiftPackageReference "Starscream" */,
+				7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */,
+				7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */,
+				7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */,
+				7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */,
+				7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */,
 			);
 			productRefGroup = 7FACFE6529FAB61A00896B3D /* Products */;
 			projectDirPath = "";
@@ -872,6 +917,78 @@
 				minimumVersion = 6.0.0;
 			};
 		};
+		7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/imaginary-cloud/CameraManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		7FA83AF72A013161004276EE /* XCRemoteSwiftPackageReference "Starscream" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/daltoniam/Starscream.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/adamcichy/SwiftySound.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kean/Nuke.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.0.0;
+			};
+		};
+		7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/maxxfrazer/SceneKit-SCNLine.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SCENEE/FloatingPanel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -984,6 +1101,66 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */;
 			productName = Cache;
+		};
+		7FA83AEF2A0130B0004276EE /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+		7FA83AF22A0130FE004276EE /* CameraManager */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */;
+			productName = CameraManager;
+		};
+		7FA83AF52A013147004276EE /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		7FA83AF82A013161004276EE /* Starscream */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AF72A013161004276EE /* XCRemoteSwiftPackageReference "Starscream" */;
+			productName = Starscream;
+		};
+		7FA83AFB2A0131B5004276EE /* SwiftySound */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */;
+			productName = SwiftySound;
+		};
+		7FA83AFE2A013201004276EE /* Nuke */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = Nuke;
+		};
+		7FA83B002A013201004276EE /* NukeExtensions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeExtensions;
+		};
+		7FA83B022A013201004276EE /* NukeUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeUI;
+		};
+		7FA83B042A013201004276EE /* NukeVideo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */;
+			productName = NukeVideo;
+		};
+		7FA83B072A013242004276EE /* SCNLine */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */;
+			productName = SCNLine;
+		};
+		7FA83B0A2A01328D004276EE /* CalendarKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */;
+			productName = CalendarKit;
+		};
+		7FA83B0D2A0132AD004276EE /* FloatingPanel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */;
+			productName = FloatingPanel;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

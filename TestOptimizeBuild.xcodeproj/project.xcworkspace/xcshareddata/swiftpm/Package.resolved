@@ -55,6 +55,24 @@
       }
     },
     {
+      "identity" : "calendarkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/richardtop/CalendarKit.git",
+      "state" : {
+        "revision" : "2154298df8a31a82309b7369d34bf805201879d3",
+        "version" : "1.1.9"
+      }
+    },
+    {
+      "identity" : "cameramanager",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/imaginary-cloud/CameraManager.git",
+      "state" : {
+        "revision" : "30584f3b8fcb47ed778b172b8727b10854704927",
+        "version" : "5.1.3"
+      }
+    },
+    {
       "identity" : "color",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/lipka/Color.git",
@@ -79,6 +97,15 @@
       "state" : {
         "revision" : "4961c0b7eb5d794e47a58dbfdd258b4beca4263a",
         "version" : "10.9.0"
+      }
+    },
+    {
+      "identity" : "floatingpanel",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SCENEE/FloatingPanel.git",
+      "state" : {
+        "revision" : "2a29cb5b3ecf4beb67cf524a030dd74a11b956c4",
+        "version" : "2.6.1"
       }
     },
     {
@@ -199,6 +226,15 @@
       }
     },
     {
+      "identity" : "nuke",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Nuke.git",
+      "state" : {
+        "revision" : "f4d9b95788679d0654c032961f73e7e9c16ca6b4",
+        "version" : "12.1.0"
+      }
+    },
+    {
       "identity" : "promises",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/google/promises.git",
@@ -262,6 +298,15 @@
       }
     },
     {
+      "identity" : "scenekit-scnline",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/maxxfrazer/SceneKit-SCNLine.git",
+      "state" : {
+        "revision" : "00bd83f3affae23a0a9375d1b1e4b58f5c3471d0",
+        "version" : "1.3.0"
+      }
+    },
+    {
       "identity" : "sdwebimage",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
@@ -280,12 +325,39 @@
       }
     },
     {
+      "identity" : "starscream",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/daltoniam/Starscream.git",
+      "state" : {
+        "revision" : "df8d82047f6654d8e4b655d1b1525c64e1059d21",
+        "version" : "4.0.4"
+      }
+    },
+    {
+      "identity" : "swift-algorithms",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-algorithms.git",
+      "state" : {
+        "revision" : "b14b7f4c528c942f121c8b860b9410b2bf57825e",
+        "version" : "1.0.0"
+      }
+    },
+    {
       "identity" : "swift-network-debugger",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SchwarzIT/swift-network-debugger.git",
       "state" : {
         "revision" : "8183b2ac2ad6f874ca0934ac378e5bdf172aae6f",
         "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "swift-numerics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-numerics",
+      "state" : {
+        "revision" : "0a5bc04095a675662cf24757cc0640aa2204253b",
+        "version" : "1.0.2"
       }
     },
     {
@@ -298,12 +370,30 @@
       }
     },
     {
+      "identity" : "swiftdate",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/malcommac/SwiftDate.git",
+      "state" : {
+        "revision" : "5d943224c3bb173e6ecf27295611615eba90c80e",
+        "version" : "7.0.0"
+      }
+    },
+    {
       "identity" : "swiftyjson",
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SwiftyJSON/SwiftyJSON.git",
       "state" : {
         "revision" : "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
         "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "swiftysound",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/adamcichy/SwiftySound.git",
+      "state" : {
+        "revision" : "ae69bc63b12a431e75963381ef8f926c4c8b7993",
+        "version" : "1.2.0"
       }
     },
     {
