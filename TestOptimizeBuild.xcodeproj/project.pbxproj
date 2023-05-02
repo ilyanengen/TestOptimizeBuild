@@ -17,6 +17,18 @@
 		7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAE2A011B2C004276EE /* MarqueeLabel */; };
 		7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB12A011B56004276EE /* PryntTrimmerView */; };
 		7FA83AB52A011BCF004276EE /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB42A011BCF004276EE /* Reachability */; };
+		7FA83AB82A011DC0004276EE /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB72A011DC0004276EE /* libwebp */; };
+		7FA83ABB2A01292F004276EE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ABA2A01292F004276EE /* Moya */; };
+		7FA83ABE2A01298D004276EE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ABD2A01298D004276EE /* SwiftyJSON */; };
+		7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC32A012B68004276EE /* SDWebImage */; };
+		7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC52A012B68004276EE /* SDWebImageMapKit */; };
+		7FA83AD82A012CB7004276EE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AD72A012CB7004276EE /* RealmSwift */; };
+		7FA83ADB2A012D15004276EE /* Haptica in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ADA2A012D15004276EE /* Haptica */; };
+		7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE02A012E02004276EE /* YouTubeKit */; };
+		7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE32A012F20004276EE /* NetworkDebugger */; };
+		7FA83AE72A012F58004276EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE62A012F58004276EE /* SnapKit */; };
+		7FA83AEA2A012FC6004276EE /* Color in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE92A012FC6004276EE /* Color */; };
+		7FA83AED2A012FFF004276EE /* Cache in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AEC2A012FFF004276EE /* Cache */; };
 		7FACFE6829FAB61A00896B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6729FAB61A00896B3D /* AppDelegate.swift */; };
 		7FACFE6A29FAB61A00896B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6929FAB61A00896B3D /* SceneDelegate.swift */; };
 		7FACFE6C29FAB61A00896B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6B29FAB61A00896B3D /* ViewController.swift */; };
@@ -66,15 +78,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7FA83ABE2A01298D004276EE /* SwiftyJSON in Frameworks */,
 				7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */,
 				7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */,
+				7FA83ADB2A012D15004276EE /* Haptica in Frameworks */,
+				7FA83ABB2A01292F004276EE /* Moya in Frameworks */,
+				7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */,
 				7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */,
+				7FA83AB82A011DC0004276EE /* libwebp in Frameworks */,
 				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
+				7FA83AE72A012F58004276EE /* SnapKit in Frameworks */,
 				7FA83AA92A011101004276EE /* Promises in Frameworks */,
+				7FA83AED2A012FFF004276EE /* Cache in Frameworks */,
+				7FA83AD82A012CB7004276EE /* RealmSwift in Frameworks */,
 				7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */,
+				7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */,
+				7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */,
+				7FA83AEA2A012FC6004276EE /* Color in Frameworks */,
 				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
 				7FA83AB52A011BCF004276EE /* Reachability in Frameworks */,
 				7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */,
+				7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */,
 				7FA83AA62A0110BB004276EE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -174,6 +198,18 @@
 				7FA83AAE2A011B2C004276EE /* MarqueeLabel */,
 				7FA83AB12A011B56004276EE /* PryntTrimmerView */,
 				7FA83AB42A011BCF004276EE /* Reachability */,
+				7FA83AB72A011DC0004276EE /* libwebp */,
+				7FA83ABA2A01292F004276EE /* Moya */,
+				7FA83ABD2A01298D004276EE /* SwiftyJSON */,
+				7FA83AC32A012B68004276EE /* SDWebImage */,
+				7FA83AC52A012B68004276EE /* SDWebImageMapKit */,
+				7FA83AD72A012CB7004276EE /* RealmSwift */,
+				7FA83ADA2A012D15004276EE /* Haptica */,
+				7FA83AE02A012E02004276EE /* YouTubeKit */,
+				7FA83AE32A012F20004276EE /* NetworkDebugger */,
+				7FA83AE62A012F58004276EE /* SnapKit */,
+				7FA83AE92A012FC6004276EE /* Color */,
+				7FA83AEC2A012FFF004276EE /* Cache */,
 			);
 			productName = TestOptimizeBuild;
 			productReference = 7FACFE6429FAB61A00896B3D /* TestOptimizeBuild.app */;
@@ -259,6 +295,17 @@
 				7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
 				7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */,
 				7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+				7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */,
+				7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */,
+				7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
+				7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */,
+				7FA83AD62A012CB7004276EE /* XCRemoteSwiftPackageReference "realm-swift" */,
+				7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */,
+				7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */,
+				7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */,
+				7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */,
+				7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */,
 			);
 			productRefGroup = 7FACFE6529FAB61A00896B3D /* Products */;
 			projectDirPath = "";
@@ -737,6 +784,94 @@
 				kind = branch;
 			};
 		};
+		7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/libwebp-Xcode.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7FA83AD62A012CB7004276EE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/efremidze/Haptica.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/alexeichhorn/YouTubeKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.8;
+			};
+		};
+		7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SchwarzIT/swift-network-debugger.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/lipka/Color.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.2.1;
+			};
+		};
+		7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hyperoslo/Cache.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -789,6 +924,66 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */;
 			productName = Reachability;
+		};
+		7FA83AB72A011DC0004276EE /* libwebp */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
+			productName = libwebp;
+		};
+		7FA83ABA2A01292F004276EE /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		7FA83ABD2A01298D004276EE /* SwiftyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
+			productName = SwiftyJSON;
+		};
+		7FA83AC32A012B68004276EE /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+		7FA83AC52A012B68004276EE /* SDWebImageMapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImageMapKit;
+		};
+		7FA83AD72A012CB7004276EE /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AD62A012CB7004276EE /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		7FA83ADA2A012D15004276EE /* Haptica */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */;
+			productName = Haptica;
+		};
+		7FA83AE02A012E02004276EE /* YouTubeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */;
+			productName = YouTubeKit;
+		};
+		7FA83AE32A012F20004276EE /* NetworkDebugger */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */;
+			productName = NetworkDebugger;
+		};
+		7FA83AE62A012F58004276EE /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		7FA83AE92A012FC6004276EE /* Color */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */;
+			productName = Color;
+		};
+		7FA83AEC2A012FFF004276EE /* Cache */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */;
+			productName = Cache;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
