@@ -41,6 +41,11 @@
 		7FA83B082A013242004276EE /* SCNLine in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B072A013242004276EE /* SCNLine */; };
 		7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B0A2A01328D004276EE /* CalendarKit */; };
 		7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B0D2A0132AD004276EE /* FloatingPanel */; };
+		7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B102A0133DC004276EE /* SkyFloatingLabelTextField */; };
+		7FA83B142A013441004276EE /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B132A013441004276EE /* BonMot */; };
+		7FA83B172A0134E4004276EE /* FileKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B162A0134E4004276EE /* FileKit */; };
+		7FA83B1A2A013511004276EE /* Wave in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B192A013511004276EE /* Wave */; };
+		7FA83B1D2A0135B0004276EE /* Progress in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B1C2A0135B0004276EE /* Progress */; };
 		7FACFE6829FAB61A00896B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6729FAB61A00896B3D /* AppDelegate.swift */; };
 		7FACFE6A29FAB61A00896B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6929FAB61A00896B3D /* SceneDelegate.swift */; };
 		7FACFE6C29FAB61A00896B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6B29FAB61A00896B3D /* ViewController.swift */; };
@@ -103,19 +108,24 @@
 				7FA83B052A013201004276EE /* NukeVideo in Frameworks */,
 				7FA83AB82A011DC0004276EE /* libwebp in Frameworks */,
 				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
+				7FA83B142A013441004276EE /* BonMot in Frameworks */,
 				7FA83AF92A013161004276EE /* Starscream in Frameworks */,
 				7FA83AE72A012F58004276EE /* SnapKit in Frameworks */,
 				7FA83AA92A011101004276EE /* Promises in Frameworks */,
+				7FA83B172A0134E4004276EE /* FileKit in Frameworks */,
+				7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */,
 				7FA83B012A013201004276EE /* NukeExtensions in Frameworks */,
 				7FA83B032A013201004276EE /* NukeUI in Frameworks */,
 				7FA83AED2A012FFF004276EE /* Cache in Frameworks */,
 				7FA83AD82A012CB7004276EE /* RealmSwift in Frameworks */,
+				7FA83B1A2A013511004276EE /* Wave in Frameworks */,
 				7FA83B082A013242004276EE /* SCNLine in Frameworks */,
 				7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */,
 				7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */,
 				7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */,
 				7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */,
 				7FA83AEA2A012FC6004276EE /* Color in Frameworks */,
+				7FA83B1D2A0135B0004276EE /* Progress in Frameworks */,
 				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
 				7FA83AB52A011BCF004276EE /* Reachability in Frameworks */,
 				7FA83AFF2A013201004276EE /* Nuke in Frameworks */,
@@ -246,6 +256,11 @@
 				7FA83B072A013242004276EE /* SCNLine */,
 				7FA83B0A2A01328D004276EE /* CalendarKit */,
 				7FA83B0D2A0132AD004276EE /* FloatingPanel */,
+				7FA83B102A0133DC004276EE /* SkyFloatingLabelTextField */,
+				7FA83B132A013441004276EE /* BonMot */,
+				7FA83B162A0134E4004276EE /* FileKit */,
+				7FA83B192A013511004276EE /* Wave */,
+				7FA83B1C2A0135B0004276EE /* Progress */,
 			);
 			productName = TestOptimizeBuild;
 			productReference = 7FACFE6429FAB61A00896B3D /* TestOptimizeBuild.app */;
@@ -351,6 +366,11 @@
 				7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */,
 				7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */,
 				7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */,
+				7FA83B0F2A0133DC004276EE /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */,
+				7FA83B122A013441004276EE /* XCRemoteSwiftPackageReference "BonMot" */,
+				7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */,
+				7FA83B182A013511004276EE /* XCRemoteSwiftPackageReference "Wave" */,
+				7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */,
 			);
 			productRefGroup = 7FACFE6529FAB61A00896B3D /* Products */;
 			projectDirPath = "";
@@ -989,6 +1009,46 @@
 				minimumVersion = 2.0.0;
 			};
 		};
+		7FA83B0F2A0133DC004276EE /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Skyscanner/SkyFloatingLabelTextField.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7FA83B122A013441004276EE /* XCRemoteSwiftPackageReference "BonMot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Rightpoint/BonMot.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nvzqz/FileKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+		7FA83B182A013511004276EE /* XCRemoteSwiftPackageReference "Wave" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jtrivedi/Wave.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.3.2;
+			};
+		};
+		7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/jkandzi/Progress.swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1161,6 +1221,31 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */;
 			productName = FloatingPanel;
+		};
+		7FA83B102A0133DC004276EE /* SkyFloatingLabelTextField */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B0F2A0133DC004276EE /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */;
+			productName = SkyFloatingLabelTextField;
+		};
+		7FA83B132A013441004276EE /* BonMot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B122A013441004276EE /* XCRemoteSwiftPackageReference "BonMot" */;
+			productName = BonMot;
+		};
+		7FA83B162A0134E4004276EE /* FileKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */;
+			productName = FileKit;
+		};
+		7FA83B192A013511004276EE /* Wave */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B182A013511004276EE /* XCRemoteSwiftPackageReference "Wave" */;
+			productName = Wave;
+		};
+		7FA83B1C2A0135B0004276EE /* Progress */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */;
+			productName = Progress;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
