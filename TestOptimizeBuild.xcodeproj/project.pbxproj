@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA62A01020C006CB67C /* AnyCodable */; };
+		7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA92A010235006CB67C /* openssl_grpc */; };
+		7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAC2A01037C006CB67C /* BSImagePicker */; };
+		7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAF2A01038F006CB67C /* CryptoSwift */; };
+		7FA83AA62A0110BB004276EE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AA52A0110BB004276EE /* Kingfisher */; };
+		7FA83AA92A011101004276EE /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AA82A011101004276EE /* Promises */; };
+		7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAB2A011A7E004276EE /* Lottie */; };
+		7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAE2A011B2C004276EE /* MarqueeLabel */; };
+		7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB12A011B56004276EE /* PryntTrimmerView */; };
+		7FA83AB52A011BCF004276EE /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB42A011BCF004276EE /* Reachability */; };
 		7FACFE6829FAB61A00896B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6729FAB61A00896B3D /* AppDelegate.swift */; };
 		7FACFE6A29FAB61A00896B3D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6929FAB61A00896B3D /* SceneDelegate.swift */; };
 		7FACFE6C29FAB61A00896B3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6B29FAB61A00896B3D /* ViewController.swift */; };
@@ -56,6 +66,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */,
+				7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */,
+				7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */,
+				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
+				7FA83AA92A011101004276EE /* Promises in Frameworks */,
+				7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */,
+				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
+				7FA83AB52A011BCF004276EE /* Reachability in Frameworks */,
+				7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */,
+				7FA83AA62A0110BB004276EE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +163,18 @@
 			dependencies = (
 			);
 			name = TestOptimizeBuild;
+			packageProductDependencies = (
+				7F9AEFA62A01020C006CB67C /* AnyCodable */,
+				7F9AEFA92A010235006CB67C /* openssl_grpc */,
+				7F9AEFAC2A01037C006CB67C /* BSImagePicker */,
+				7F9AEFAF2A01038F006CB67C /* CryptoSwift */,
+				7FA83AA52A0110BB004276EE /* Kingfisher */,
+				7FA83AA82A011101004276EE /* Promises */,
+				7FA83AAB2A011A7E004276EE /* Lottie */,
+				7FA83AAE2A011B2C004276EE /* MarqueeLabel */,
+				7FA83AB12A011B56004276EE /* PryntTrimmerView */,
+				7FA83AB42A011BCF004276EE /* Reachability */,
+			);
 			productName = TestOptimizeBuild;
 			productReference = 7FACFE6429FAB61A00896B3D /* TestOptimizeBuild.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +247,19 @@
 				Base,
 			);
 			mainGroup = 7FACFE5B29FAB61A00896B3D;
+			packageReferences = (
+				7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */,
+				7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */,
+				7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */,
+				7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */,
+				7F9AEFB12A0103E5006CB67C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				7FA83AA42A0110BB004276EE /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */,
+				7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
+				7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */,
+				7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */,
+			);
 			productRefGroup = 7FACFE6529FAB61A00896B3D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -602,6 +647,150 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/flight-school/anycodable.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.7;
+			};
+		};
+		7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/boringssl-SwiftPM.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.1;
+			};
+		};
+		7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mikaoj/BSImagePicker.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+		7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		7F9AEFB12A0103E5006CB67C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		7FA83AA42A0110BB004276EE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/promises.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/cbpowell/MarqueeLabel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/HHK1/PryntTrimmerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F9AEFA62A01020C006CB67C /* AnyCodable */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */;
+			productName = AnyCodable;
+		};
+		7F9AEFA92A010235006CB67C /* openssl_grpc */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */;
+			productName = openssl_grpc;
+		};
+		7F9AEFAC2A01037C006CB67C /* BSImagePicker */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */;
+			productName = BSImagePicker;
+		};
+		7F9AEFAF2A01038F006CB67C /* CryptoSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */;
+			productName = CryptoSwift;
+		};
+		7FA83AA52A0110BB004276EE /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AA42A0110BB004276EE /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		7FA83AA82A011101004276EE /* Promises */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */;
+			productName = Promises;
+		};
+		7FA83AAB2A011A7E004276EE /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		7FA83AAE2A011B2C004276EE /* MarqueeLabel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
+			productName = MarqueeLabel;
+		};
+		7FA83AB12A011B56004276EE /* PryntTrimmerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */;
+			productName = PryntTrimmerView;
+		};
+		7FA83AB42A011BCF004276EE /* Reachability */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */;
+			productName = Reachability;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7FACFE5C29FAB61A00896B3D /* Project object */;
 }
