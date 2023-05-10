@@ -11,7 +11,6 @@
 		7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA92A010235006CB67C /* openssl_grpc */; };
 		7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAC2A01037C006CB67C /* BSImagePicker */; };
 		7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAF2A01038F006CB67C /* CryptoSwift */; };
-		7FA83AA62A0110BB004276EE /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AA52A0110BB004276EE /* Kingfisher */; };
 		7FA83AA92A011101004276EE /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AA82A011101004276EE /* Promises */; };
 		7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAB2A011A7E004276EE /* Lottie */; };
 		7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAE2A011B2C004276EE /* MarqueeLabel */; };
@@ -22,7 +21,6 @@
 		7FA83ABE2A01298D004276EE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ABD2A01298D004276EE /* SwiftyJSON */; };
 		7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC32A012B68004276EE /* SDWebImage */; };
 		7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC52A012B68004276EE /* SDWebImageMapKit */; };
-		7FA83AD82A012CB7004276EE /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AD72A012CB7004276EE /* RealmSwift */; };
 		7FA83ADB2A012D15004276EE /* Haptica in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ADA2A012D15004276EE /* Haptica */; };
 		7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE02A012E02004276EE /* YouTubeKit */; };
 		7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE32A012F20004276EE /* NetworkDebugger */; };
@@ -55,6 +53,9 @@
 		7FACFE7F29FAB61B00896B3D /* TestOptimizeBuildTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE7E29FAB61B00896B3D /* TestOptimizeBuildTests.swift */; };
 		7FACFE8929FAB61B00896B3D /* TestOptimizeBuildUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE8829FAB61B00896B3D /* TestOptimizeBuildUITests.swift */; };
 		7FACFE8B29FAB61B00896B3D /* TestOptimizeBuildUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE8A29FAB61B00896B3D /* TestOptimizeBuildUITestsLaunchTests.swift */; };
+		D33EBD212A0BB5E6008BFF45 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D33EBD202A0BB5E6008BFF45 /* Realm */; };
+		D33EBD232A0BB5E6008BFF45 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D33EBD222A0BB5E6008BFF45 /* RealmSwift */; };
+		D33EBD262A0BE726008BFF45 /* MySPMPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D33EBD252A0BE726008BFF45 /* MySPMPackage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -103,6 +104,7 @@
 				7FA83ADB2A012D15004276EE /* Haptica in Frameworks */,
 				7FA83ABB2A01292F004276EE /* Moya in Frameworks */,
 				7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */,
+				D33EBD232A0BB5E6008BFF45 /* RealmSwift in Frameworks */,
 				7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */,
 				7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */,
 				7FA83B052A013201004276EE /* NukeVideo in Frameworks */,
@@ -116,10 +118,11 @@
 				7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */,
 				7FA83B012A013201004276EE /* NukeExtensions in Frameworks */,
 				7FA83B032A013201004276EE /* NukeUI in Frameworks */,
+				D33EBD262A0BE726008BFF45 /* MySPMPackage in Frameworks */,
 				7FA83AED2A012FFF004276EE /* Cache in Frameworks */,
-				7FA83AD82A012CB7004276EE /* RealmSwift in Frameworks */,
 				7FA83B1A2A013511004276EE /* Wave in Frameworks */,
 				7FA83B082A013242004276EE /* SCNLine in Frameworks */,
+				D33EBD212A0BB5E6008BFF45 /* Realm in Frameworks */,
 				7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */,
 				7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */,
 				7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */,
@@ -133,7 +136,6 @@
 				7FA83AF62A013147004276EE /* SwiftDate in Frameworks */,
 				7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */,
 				7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */,
-				7FA83AA62A0110BB004276EE /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,7 +228,6 @@
 				7F9AEFA92A010235006CB67C /* openssl_grpc */,
 				7F9AEFAC2A01037C006CB67C /* BSImagePicker */,
 				7F9AEFAF2A01038F006CB67C /* CryptoSwift */,
-				7FA83AA52A0110BB004276EE /* Kingfisher */,
 				7FA83AA82A011101004276EE /* Promises */,
 				7FA83AAB2A011A7E004276EE /* Lottie */,
 				7FA83AAE2A011B2C004276EE /* MarqueeLabel */,
@@ -237,7 +238,6 @@
 				7FA83ABD2A01298D004276EE /* SwiftyJSON */,
 				7FA83AC32A012B68004276EE /* SDWebImage */,
 				7FA83AC52A012B68004276EE /* SDWebImageMapKit */,
-				7FA83AD72A012CB7004276EE /* RealmSwift */,
 				7FA83ADA2A012D15004276EE /* Haptica */,
 				7FA83AE02A012E02004276EE /* YouTubeKit */,
 				7FA83AE32A012F20004276EE /* NetworkDebugger */,
@@ -261,6 +261,9 @@
 				7FA83B162A0134E4004276EE /* FileKit */,
 				7FA83B192A013511004276EE /* Wave */,
 				7FA83B1C2A0135B0004276EE /* Progress */,
+				D33EBD202A0BB5E6008BFF45 /* Realm */,
+				D33EBD222A0BB5E6008BFF45 /* RealmSwift */,
+				D33EBD252A0BE726008BFF45 /* MySPMPackage */,
 			);
 			productName = TestOptimizeBuild;
 			productReference = 7FACFE6429FAB61A00896B3D /* TestOptimizeBuild.app */;
@@ -340,7 +343,6 @@
 				7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */,
 				7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				7F9AEFB12A0103E5006CB67C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				7FA83AA42A0110BB004276EE /* XCRemoteSwiftPackageReference "Kingfisher" */,
 				7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */,
 				7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
@@ -350,7 +352,6 @@
 				7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */,
 				7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				7FA83AD62A012CB7004276EE /* XCRemoteSwiftPackageReference "realm-swift" */,
 				7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */,
 				7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */,
 				7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */,
@@ -371,6 +372,8 @@
 				7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */,
 				7FA83B182A013511004276EE /* XCRemoteSwiftPackageReference "Wave" */,
 				7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */,
+				D33EBD1F2A0BB5E6008BFF45 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				D33EBD242A0BE726008BFF45 /* XCRemoteSwiftPackageReference "MySPMPackage" */,
 			);
 			productRefGroup = 7FACFE6529FAB61A00896B3D /* Products */;
 			projectDirPath = "";
@@ -801,14 +804,6 @@
 				minimumVersion = 10.0.0;
 			};
 		};
-		7FA83AA42A0110BB004276EE /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 7.0.0;
-			};
-		};
 		7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/google/promises.git";
@@ -879,14 +874,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 5.0.0;
-			};
-		};
-		7FA83AD62A012CB7004276EE /* XCRemoteSwiftPackageReference "realm-swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/realm/realm-swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
 			};
 		};
 		7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */ = {
@@ -1049,6 +1036,22 @@
 				minimumVersion = 0.4.0;
 			};
 		};
+		D33EBD1F2A0BB5E6008BFF45 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		D33EBD242A0BE726008BFF45 /* XCRemoteSwiftPackageReference "MySPMPackage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ilyanengen/MySPMPackage";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1071,11 +1074,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */;
 			productName = CryptoSwift;
-		};
-		7FA83AA52A0110BB004276EE /* Kingfisher */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AA42A0110BB004276EE /* XCRemoteSwiftPackageReference "Kingfisher" */;
-			productName = Kingfisher;
 		};
 		7FA83AA82A011101004276EE /* Promises */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1126,11 +1124,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */;
 			productName = SDWebImageMapKit;
-		};
-		7FA83AD72A012CB7004276EE /* RealmSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AD62A012CB7004276EE /* XCRemoteSwiftPackageReference "realm-swift" */;
-			productName = RealmSwift;
 		};
 		7FA83ADA2A012D15004276EE /* Haptica */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1246,6 +1239,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */;
 			productName = Progress;
+		};
+		D33EBD202A0BB5E6008BFF45 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D33EBD1F2A0BB5E6008BFF45 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		D33EBD222A0BB5E6008BFF45 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D33EBD1F2A0BB5E6008BFF45 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		D33EBD252A0BE726008BFF45 /* MySPMPackage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D33EBD242A0BE726008BFF45 /* XCRemoteSwiftPackageReference "MySPMPackage" */;
+			productName = MySPMPackage;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
