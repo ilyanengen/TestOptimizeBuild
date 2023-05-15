@@ -9,16 +9,11 @@
 /* Begin PBXBuildFile section */
 		7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA62A01020C006CB67C /* AnyCodable */; };
 		7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA92A010235006CB67C /* openssl_grpc */; };
-		7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAC2A01037C006CB67C /* BSImagePicker */; };
 		7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAF2A01038F006CB67C /* CryptoSwift */; };
-		7FA83AA92A011101004276EE /* Promises in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AA82A011101004276EE /* Promises */; };
 		7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAB2A011A7E004276EE /* Lottie */; };
 		7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAE2A011B2C004276EE /* MarqueeLabel */; };
-		7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB12A011B56004276EE /* PryntTrimmerView */; };
-		7FA83AB52A011BCF004276EE /* Reachability in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB42A011BCF004276EE /* Reachability */; };
 		7FA83AB82A011DC0004276EE /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB72A011DC0004276EE /* libwebp */; };
 		7FA83ABB2A01292F004276EE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ABA2A01292F004276EE /* Moya */; };
-		7FA83ABE2A01298D004276EE /* SwiftyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ABD2A01298D004276EE /* SwiftyJSON */; };
 		7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC32A012B68004276EE /* SDWebImage */; };
 		7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC52A012B68004276EE /* SDWebImageMapKit */; };
 		7FA83ADB2A012D15004276EE /* Haptica in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ADA2A012D15004276EE /* Haptica */; };
@@ -30,7 +25,6 @@
 		7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AEF2A0130B0004276EE /* Algorithms */; };
 		7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF22A0130FE004276EE /* CameraManager */; };
 		7FA83AF62A013147004276EE /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF52A013147004276EE /* SwiftDate */; };
-		7FA83AF92A013161004276EE /* Starscream in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF82A013161004276EE /* Starscream */; };
 		7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AFB2A0131B5004276EE /* SwiftySound */; };
 		7FA83AFF2A013201004276EE /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AFE2A013201004276EE /* Nuke */; };
 		7FA83B012A013201004276EE /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B002A013201004276EE /* NukeExtensions */; };
@@ -96,11 +90,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA83ABE2A01298D004276EE /* SwiftyJSON in Frameworks */,
 				7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */,
 				7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */,
 				7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */,
-				7FA83AB22A011B56004276EE /* PryntTrimmerView in Frameworks */,
 				7FA83ADB2A012D15004276EE /* Haptica in Frameworks */,
 				7FA83ABB2A01292F004276EE /* Moya in Frameworks */,
 				7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */,
@@ -111,9 +103,7 @@
 				7FA83AB82A011DC0004276EE /* libwebp in Frameworks */,
 				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
 				7FA83B142A013441004276EE /* BonMot in Frameworks */,
-				7FA83AF92A013161004276EE /* Starscream in Frameworks */,
 				7FA83AE72A012F58004276EE /* SnapKit in Frameworks */,
-				7FA83AA92A011101004276EE /* Promises in Frameworks */,
 				7FA83B172A0134E4004276EE /* FileKit in Frameworks */,
 				7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */,
 				7FA83B012A013201004276EE /* NukeExtensions in Frameworks */,
@@ -130,9 +120,7 @@
 				7FA83AEA2A012FC6004276EE /* Color in Frameworks */,
 				7FA83B1D2A0135B0004276EE /* Progress in Frameworks */,
 				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
-				7FA83AB52A011BCF004276EE /* Reachability in Frameworks */,
 				7FA83AFF2A013201004276EE /* Nuke in Frameworks */,
-				7F9AEFAD2A01037C006CB67C /* BSImagePicker in Frameworks */,
 				7FA83AF62A013147004276EE /* SwiftDate in Frameworks */,
 				7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */,
 				7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */,
@@ -226,16 +214,11 @@
 			packageProductDependencies = (
 				7F9AEFA62A01020C006CB67C /* AnyCodable */,
 				7F9AEFA92A010235006CB67C /* openssl_grpc */,
-				7F9AEFAC2A01037C006CB67C /* BSImagePicker */,
 				7F9AEFAF2A01038F006CB67C /* CryptoSwift */,
-				7FA83AA82A011101004276EE /* Promises */,
 				7FA83AAB2A011A7E004276EE /* Lottie */,
 				7FA83AAE2A011B2C004276EE /* MarqueeLabel */,
-				7FA83AB12A011B56004276EE /* PryntTrimmerView */,
-				7FA83AB42A011BCF004276EE /* Reachability */,
 				7FA83AB72A011DC0004276EE /* libwebp */,
 				7FA83ABA2A01292F004276EE /* Moya */,
-				7FA83ABD2A01298D004276EE /* SwiftyJSON */,
 				7FA83AC32A012B68004276EE /* SDWebImage */,
 				7FA83AC52A012B68004276EE /* SDWebImageMapKit */,
 				7FA83ADA2A012D15004276EE /* Haptica */,
@@ -247,7 +230,6 @@
 				7FA83AEF2A0130B0004276EE /* Algorithms */,
 				7FA83AF22A0130FE004276EE /* CameraManager */,
 				7FA83AF52A013147004276EE /* SwiftDate */,
-				7FA83AF82A013161004276EE /* Starscream */,
 				7FA83AFB2A0131B5004276EE /* SwiftySound */,
 				7FA83AFE2A013201004276EE /* Nuke */,
 				7FA83B002A013201004276EE /* NukeExtensions */,
@@ -340,17 +322,12 @@
 			packageReferences = (
 				7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */,
 				7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */,
-				7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */,
 				7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				7F9AEFB12A0103E5006CB67C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
-				7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */,
 				7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
-				7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */,
-				7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */,
 				7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */,
 				7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */,
-				7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */,
 				7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */,
 				7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */,
 				7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */,
@@ -361,7 +338,6 @@
 				7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */,
 				7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */,
 				7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */,
-				7FA83AF72A013161004276EE /* XCRemoteSwiftPackageReference "Starscream" */,
 				7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */,
 				7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */,
 				7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */,
@@ -780,14 +756,6 @@
 				minimumVersion = 0.9.1;
 			};
 		};
-		7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/mikaoj/BSImagePicker.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
-			};
-		};
 		7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
@@ -802,14 +770,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 10.0.0;
-			};
-		};
-		7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/google/promises.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
 			};
 		};
 		7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
@@ -828,22 +788,6 @@
 				minimumVersion = 4.0.0;
 			};
 		};
-		7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/HHK1/PryntTrimmerView.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ashleymills/Reachability.swift.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
 		7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/libwebp-Xcode.git";
@@ -858,14 +802,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 15.0.0;
-			};
-		};
-		7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SwiftyJSON/SwiftyJSON.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
 			};
 		};
 		7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
@@ -946,14 +882,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
-			};
-		};
-		7FA83AF72A013161004276EE /* XCRemoteSwiftPackageReference "Starscream" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/daltoniam/Starscream.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
 			};
 		};
 		7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
@@ -1048,8 +976,8 @@
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ilyanengen/MySPMPackage";
 			requirement = {
-				kind = exactVersion;
-				version = 1.0.2;
+				branch = main;
+				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
@@ -1065,20 +993,10 @@
 			package = 7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */;
 			productName = openssl_grpc;
 		};
-		7F9AEFAC2A01037C006CB67C /* BSImagePicker */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7F9AEFAB2A01037C006CB67C /* XCRemoteSwiftPackageReference "BSImagePicker" */;
-			productName = BSImagePicker;
-		};
 		7F9AEFAF2A01038F006CB67C /* CryptoSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */;
 			productName = CryptoSwift;
-		};
-		7FA83AA82A011101004276EE /* Promises */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AA72A011101004276EE /* XCRemoteSwiftPackageReference "promises" */;
-			productName = Promises;
 		};
 		7FA83AAB2A011A7E004276EE /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1090,16 +1008,6 @@
 			package = 7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
 			productName = MarqueeLabel;
 		};
-		7FA83AB12A011B56004276EE /* PryntTrimmerView */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AB02A011B56004276EE /* XCRemoteSwiftPackageReference "PryntTrimmerView" */;
-			productName = PryntTrimmerView;
-		};
-		7FA83AB42A011BCF004276EE /* Reachability */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AB32A011BCF004276EE /* XCRemoteSwiftPackageReference "Reachability.swift" */;
-			productName = Reachability;
-		};
 		7FA83AB72A011DC0004276EE /* libwebp */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
@@ -1109,11 +1017,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */;
 			productName = Moya;
-		};
-		7FA83ABD2A01298D004276EE /* SwiftyJSON */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83ABC2A01298D004276EE /* XCRemoteSwiftPackageReference "SwiftyJSON" */;
-			productName = SwiftyJSON;
 		};
 		7FA83AC32A012B68004276EE /* SDWebImage */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1169,11 +1072,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */;
 			productName = SwiftDate;
-		};
-		7FA83AF82A013161004276EE /* Starscream */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AF72A013161004276EE /* XCRemoteSwiftPackageReference "Starscream" */;
-			productName = Starscream;
 		};
 		7FA83AFB2A0131B5004276EE /* SwiftySound */ = {
 			isa = XCSwiftPackageProductDependency;
