@@ -8,6 +8,7 @@
 import UIKit
 import Kingfisher
 import Starscream
+import Firebase
 
 class ViewController: UIViewController {
 

@@ -11,12 +11,7 @@
 		7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA92A010235006CB67C /* openssl_grpc */; };
 		7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAF2A01038F006CB67C /* CryptoSwift */; };
 		7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAB2A011A7E004276EE /* Lottie */; };
-		7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAE2A011B2C004276EE /* MarqueeLabel */; };
 		7FA83AB82A011DC0004276EE /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB72A011DC0004276EE /* libwebp */; };
-		7FA83ABB2A01292F004276EE /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ABA2A01292F004276EE /* Moya */; };
-		7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC32A012B68004276EE /* SDWebImage */; };
-		7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AC52A012B68004276EE /* SDWebImageMapKit */; };
-		7FA83ADB2A012D15004276EE /* Haptica in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83ADA2A012D15004276EE /* Haptica */; };
 		7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE02A012E02004276EE /* YouTubeKit */; };
 		7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE32A012F20004276EE /* NetworkDebugger */; };
 		7FA83AE72A012F58004276EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE62A012F58004276EE /* SnapKit */; };
@@ -50,6 +45,25 @@
 		D33EBD212A0BB5E6008BFF45 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = D33EBD202A0BB5E6008BFF45 /* Realm */; };
 		D33EBD232A0BB5E6008BFF45 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D33EBD222A0BB5E6008BFF45 /* RealmSwift */; };
 		D33EBD262A0BE726008BFF45 /* MySPMPackage in Frameworks */ = {isa = PBXBuildFile; productRef = D33EBD252A0BE726008BFF45 /* MySPMPackage */; };
+		D3FB2E672A128AEC009162CD /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E662A128AEC009162CD /* Moya */; };
+		D3FB2E6A2A13868D009162CD /* FirebaseABTesting in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E692A13868D009162CD /* FirebaseABTesting */; };
+		D3FB2E6C2A13868D009162CD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E6B2A13868D009162CD /* FirebaseAnalyticsOnDeviceConversion */; };
+		D3FB2E6E2A13868D009162CD /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E6D2A13868D009162CD /* FirebaseAppCheck */; };
+		D3FB2E702A13868D009162CD /* FirebaseAppDistribution in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E6F2A13868D009162CD /* FirebaseAppDistribution */; };
+		D3FB2E722A13868D009162CD /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E712A13868D009162CD /* FirebaseAuth */; };
+		D3FB2E742A13868D009162CD /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E732A13868D009162CD /* FirebaseCrashlytics */; };
+		D3FB2E762A13868D009162CD /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E752A13868D009162CD /* FirebaseDatabase */; };
+		D3FB2E782A13868D009162CD /* FirebaseDynamicLinks in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E772A13868D009162CD /* FirebaseDynamicLinks */; };
+		D3FB2E7A2A13868D009162CD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E792A13868D009162CD /* FirebaseFirestore */; };
+		D3FB2E7C2A13868D009162CD /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E7B2A13868D009162CD /* FirebaseFunctions */; };
+		D3FB2E7E2A13868D009162CD /* FirebaseInAppMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E7D2A13868D009162CD /* FirebaseInAppMessaging */; };
+		D3FB2E802A13868D009162CD /* FirebaseMLModelDownloader in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E7F2A13868D009162CD /* FirebaseMLModelDownloader */; };
+		D3FB2E822A13868D009162CD /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E812A13868D009162CD /* FirebaseMessaging */; };
+		D3FB2E842A13868D009162CD /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E832A13868D009162CD /* FirebasePerformance */; };
+		D3FB2E862A13868D009162CD /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E852A13868D009162CD /* FirebaseRemoteConfig */; };
+		D3FB2E882A13868D009162CD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E872A13868D009162CD /* FirebaseStorage */; };
+		D3FB2E8A2A13868D009162CD /* Google-Mobile-Ads-SDK in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E892A13868D009162CD /* Google-Mobile-Ads-SDK */; };
+		D3FB2E8C2A13868D009162CD /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = D3FB2E8B2A13868D009162CD /* GoogleSignIn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -91,39 +105,53 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */,
+				D3FB2E6A2A13868D009162CD /* FirebaseABTesting in Frameworks */,
 				7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */,
+				D3FB2E8A2A13868D009162CD /* Google-Mobile-Ads-SDK in Frameworks */,
 				7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */,
-				7FA83ADB2A012D15004276EE /* Haptica in Frameworks */,
-				7FA83ABB2A01292F004276EE /* Moya in Frameworks */,
 				7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */,
 				D33EBD232A0BB5E6008BFF45 /* RealmSwift in Frameworks */,
 				7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */,
 				7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */,
 				7FA83B052A013201004276EE /* NukeVideo in Frameworks */,
+				D3FB2E862A13868D009162CD /* FirebaseRemoteConfig in Frameworks */,
 				7FA83AB82A011DC0004276EE /* libwebp in Frameworks */,
+				D3FB2E882A13868D009162CD /* FirebaseStorage in Frameworks */,
+				D3FB2E6E2A13868D009162CD /* FirebaseAppCheck in Frameworks */,
 				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
 				7FA83B142A013441004276EE /* BonMot in Frameworks */,
 				7FA83AE72A012F58004276EE /* SnapKit in Frameworks */,
+				D3FB2E8C2A13868D009162CD /* GoogleSignIn in Frameworks */,
+				D3FB2E7A2A13868D009162CD /* FirebaseFirestore in Frameworks */,
 				7FA83B172A0134E4004276EE /* FileKit in Frameworks */,
+				D3FB2E7E2A13868D009162CD /* FirebaseInAppMessaging in Frameworks */,
 				7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */,
 				7FA83B012A013201004276EE /* NukeExtensions in Frameworks */,
 				7FA83B032A013201004276EE /* NukeUI in Frameworks */,
 				D33EBD262A0BE726008BFF45 /* MySPMPackage in Frameworks */,
 				7FA83AED2A012FFF004276EE /* Cache in Frameworks */,
+				D3FB2E842A13868D009162CD /* FirebasePerformance in Frameworks */,
 				7FA83B1A2A013511004276EE /* Wave in Frameworks */,
+				D3FB2E672A128AEC009162CD /* Moya in Frameworks */,
 				7FA83B082A013242004276EE /* SCNLine in Frameworks */,
 				D33EBD212A0BB5E6008BFF45 /* Realm in Frameworks */,
+				D3FB2E6C2A13868D009162CD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				D3FB2E802A13868D009162CD /* FirebaseMLModelDownloader in Frameworks */,
 				7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */,
-				7FA83AAF2A011B2C004276EE /* MarqueeLabel in Frameworks */,
+				D3FB2E7C2A13868D009162CD /* FirebaseFunctions in Frameworks */,
+				D3FB2E722A13868D009162CD /* FirebaseAuth in Frameworks */,
 				7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */,
-				7FA83AC42A012B68004276EE /* SDWebImage in Frameworks */,
 				7FA83AEA2A012FC6004276EE /* Color in Frameworks */,
+				D3FB2E762A13868D009162CD /* FirebaseDatabase in Frameworks */,
 				7FA83B1D2A0135B0004276EE /* Progress in Frameworks */,
+				D3FB2E782A13868D009162CD /* FirebaseDynamicLinks in Frameworks */,
+				D3FB2E702A13868D009162CD /* FirebaseAppDistribution in Frameworks */,
 				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
 				7FA83AFF2A013201004276EE /* Nuke in Frameworks */,
+				D3FB2E742A13868D009162CD /* FirebaseCrashlytics in Frameworks */,
 				7FA83AF62A013147004276EE /* SwiftDate in Frameworks */,
 				7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */,
-				7FA83AC62A012B68004276EE /* SDWebImageMapKit in Frameworks */,
+				D3FB2E822A13868D009162CD /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,12 +244,7 @@
 				7F9AEFA92A010235006CB67C /* openssl_grpc */,
 				7F9AEFAF2A01038F006CB67C /* CryptoSwift */,
 				7FA83AAB2A011A7E004276EE /* Lottie */,
-				7FA83AAE2A011B2C004276EE /* MarqueeLabel */,
 				7FA83AB72A011DC0004276EE /* libwebp */,
-				7FA83ABA2A01292F004276EE /* Moya */,
-				7FA83AC32A012B68004276EE /* SDWebImage */,
-				7FA83AC52A012B68004276EE /* SDWebImageMapKit */,
-				7FA83ADA2A012D15004276EE /* Haptica */,
 				7FA83AE02A012E02004276EE /* YouTubeKit */,
 				7FA83AE32A012F20004276EE /* NetworkDebugger */,
 				7FA83AE62A012F58004276EE /* SnapKit */,
@@ -246,6 +269,25 @@
 				D33EBD202A0BB5E6008BFF45 /* Realm */,
 				D33EBD222A0BB5E6008BFF45 /* RealmSwift */,
 				D33EBD252A0BE726008BFF45 /* MySPMPackage */,
+				D3FB2E662A128AEC009162CD /* Moya */,
+				D3FB2E692A13868D009162CD /* FirebaseABTesting */,
+				D3FB2E6B2A13868D009162CD /* FirebaseAnalyticsOnDeviceConversion */,
+				D3FB2E6D2A13868D009162CD /* FirebaseAppCheck */,
+				D3FB2E6F2A13868D009162CD /* FirebaseAppDistribution */,
+				D3FB2E712A13868D009162CD /* FirebaseAuth */,
+				D3FB2E732A13868D009162CD /* FirebaseCrashlytics */,
+				D3FB2E752A13868D009162CD /* FirebaseDatabase */,
+				D3FB2E772A13868D009162CD /* FirebaseDynamicLinks */,
+				D3FB2E792A13868D009162CD /* FirebaseFirestore */,
+				D3FB2E7B2A13868D009162CD /* FirebaseFunctions */,
+				D3FB2E7D2A13868D009162CD /* FirebaseInAppMessaging */,
+				D3FB2E7F2A13868D009162CD /* FirebaseMLModelDownloader */,
+				D3FB2E812A13868D009162CD /* FirebaseMessaging */,
+				D3FB2E832A13868D009162CD /* FirebasePerformance */,
+				D3FB2E852A13868D009162CD /* FirebaseRemoteConfig */,
+				D3FB2E872A13868D009162CD /* FirebaseStorage */,
+				D3FB2E892A13868D009162CD /* Google-Mobile-Ads-SDK */,
+				D3FB2E8B2A13868D009162CD /* GoogleSignIn */,
 			);
 			productName = TestOptimizeBuild;
 			productReference = 7FACFE6429FAB61A00896B3D /* TestOptimizeBuild.app */;
@@ -323,13 +365,8 @@
 				7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */,
 				7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */,
 				7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */,
-				7F9AEFB12A0103E5006CB67C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
-				7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */,
 				7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */,
-				7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */,
-				7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */,
-				7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */,
 				7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */,
 				7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */,
 				7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */,
@@ -350,6 +387,8 @@
 				7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */,
 				D33EBD1F2A0BB5E6008BFF45 /* XCRemoteSwiftPackageReference "realm-swift" */,
 				D33EBD242A0BE726008BFF45 /* XCRemoteSwiftPackageReference "MySPMPackage" */,
+				D3FB2E652A128AEC009162CD /* XCRemoteSwiftPackageReference "Moya" */,
+				D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */,
 			);
 			productRefGroup = 7FACFE6529FAB61A00896B3D /* Products */;
 			projectDirPath = "";
@@ -764,25 +803,9 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		7F9AEFB12A0103E5006CB67C /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.0.0;
-			};
-		};
 		7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/cbpowell/MarqueeLabel.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 4.0.0;
@@ -794,30 +817,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
-			};
-		};
-		7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Moya/Moya.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 15.0.0;
-			};
-		};
-		7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/efremidze/Haptica.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 3.0.0;
 			};
 		};
 		7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
@@ -980,6 +979,22 @@
 				kind = branch;
 			};
 		};
+		D3FB2E652A128AEC009162CD /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
+		D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/akaffenberger/firebase-ios-sdk-xcframeworks.git";
+			requirement = {
+				kind = exactVersion;
+				version = 10.9.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1003,35 +1018,10 @@
 			package = 7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */;
 			productName = Lottie;
 		};
-		7FA83AAE2A011B2C004276EE /* MarqueeLabel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AAD2A011B2C004276EE /* XCRemoteSwiftPackageReference "MarqueeLabel" */;
-			productName = MarqueeLabel;
-		};
 		7FA83AB72A011DC0004276EE /* libwebp */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
 			productName = libwebp;
-		};
-		7FA83ABA2A01292F004276EE /* Moya */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AB92A01292F004276EE /* XCRemoteSwiftPackageReference "Moya" */;
-			productName = Moya;
-		};
-		7FA83AC32A012B68004276EE /* SDWebImage */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImage;
-		};
-		7FA83AC52A012B68004276EE /* SDWebImageMapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AC22A012B68004276EE /* XCRemoteSwiftPackageReference "SDWebImage" */;
-			productName = SDWebImageMapKit;
-		};
-		7FA83ADA2A012D15004276EE /* Haptica */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AD92A012D15004276EE /* XCRemoteSwiftPackageReference "Haptica" */;
-			productName = Haptica;
 		};
 		7FA83AE02A012E02004276EE /* YouTubeKit */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1152,6 +1142,101 @@
 			isa = XCSwiftPackageProductDependency;
 			package = D33EBD242A0BE726008BFF45 /* XCRemoteSwiftPackageReference "MySPMPackage" */;
 			productName = MySPMPackage;
+		};
+		D3FB2E662A128AEC009162CD /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E652A128AEC009162CD /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		D3FB2E692A13868D009162CD /* FirebaseABTesting */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseABTesting;
+		};
+		D3FB2E6B2A13868D009162CD /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		D3FB2E6D2A13868D009162CD /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseAppCheck;
+		};
+		D3FB2E6F2A13868D009162CD /* FirebaseAppDistribution */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseAppDistribution;
+		};
+		D3FB2E712A13868D009162CD /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseAuth;
+		};
+		D3FB2E732A13868D009162CD /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseCrashlytics;
+		};
+		D3FB2E752A13868D009162CD /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseDatabase;
+		};
+		D3FB2E772A13868D009162CD /* FirebaseDynamicLinks */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseDynamicLinks;
+		};
+		D3FB2E792A13868D009162CD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseFirestore;
+		};
+		D3FB2E7B2A13868D009162CD /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseFunctions;
+		};
+		D3FB2E7D2A13868D009162CD /* FirebaseInAppMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseInAppMessaging;
+		};
+		D3FB2E7F2A13868D009162CD /* FirebaseMLModelDownloader */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseMLModelDownloader;
+		};
+		D3FB2E812A13868D009162CD /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseMessaging;
+		};
+		D3FB2E832A13868D009162CD /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebasePerformance;
+		};
+		D3FB2E852A13868D009162CD /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseRemoteConfig;
+		};
+		D3FB2E872A13868D009162CD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = FirebaseStorage;
+		};
+		D3FB2E892A13868D009162CD /* Google-Mobile-Ads-SDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = "Google-Mobile-Ads-SDK";
+		};
+		D3FB2E8B2A13868D009162CD /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D3FB2E682A13868D009162CD /* XCRemoteSwiftPackageReference "firebase-ios-sdk-xcframeworks" */;
+			productName = GoogleSignIn;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
