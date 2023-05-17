@@ -8,29 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA62A01020C006CB67C /* AnyCodable */; };
-		7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFA92A010235006CB67C /* openssl_grpc */; };
-		7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7F9AEFAF2A01038F006CB67C /* CryptoSwift */; };
 		7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AAB2A011A7E004276EE /* Lottie */; };
 		7FA83AB82A011DC0004276EE /* libwebp in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AB72A011DC0004276EE /* libwebp */; };
-		7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE02A012E02004276EE /* YouTubeKit */; };
-		7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE32A012F20004276EE /* NetworkDebugger */; };
-		7FA83AE72A012F58004276EE /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE62A012F58004276EE /* SnapKit */; };
-		7FA83AEA2A012FC6004276EE /* Color in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AE92A012FC6004276EE /* Color */; };
-		7FA83AED2A012FFF004276EE /* Cache in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AEC2A012FFF004276EE /* Cache */; };
-		7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AEF2A0130B0004276EE /* Algorithms */; };
-		7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF22A0130FE004276EE /* CameraManager */; };
 		7FA83AF62A013147004276EE /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AF52A013147004276EE /* SwiftDate */; };
-		7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AFB2A0131B5004276EE /* SwiftySound */; };
 		7FA83AFF2A013201004276EE /* Nuke in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83AFE2A013201004276EE /* Nuke */; };
 		7FA83B012A013201004276EE /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B002A013201004276EE /* NukeExtensions */; };
 		7FA83B032A013201004276EE /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B022A013201004276EE /* NukeUI */; };
 		7FA83B052A013201004276EE /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B042A013201004276EE /* NukeVideo */; };
 		7FA83B082A013242004276EE /* SCNLine in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B072A013242004276EE /* SCNLine */; };
-		7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B0A2A01328D004276EE /* CalendarKit */; };
-		7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B0D2A0132AD004276EE /* FloatingPanel */; };
-		7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B102A0133DC004276EE /* SkyFloatingLabelTextField */; };
-		7FA83B142A013441004276EE /* BonMot in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B132A013441004276EE /* BonMot */; };
-		7FA83B172A0134E4004276EE /* FileKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B162A0134E4004276EE /* FileKit */; };
 		7FA83B1A2A013511004276EE /* Wave in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B192A013511004276EE /* Wave */; };
 		7FA83B1D2A0135B0004276EE /* Progress in Frameworks */ = {isa = PBXBuildFile; productRef = 7FA83B1C2A0135B0004276EE /* Progress */; };
 		7FACFE6829FAB61A00896B3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FACFE6729FAB61A00896B3D /* AppDelegate.swift */; };
@@ -104,32 +89,22 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FA83AF32A0130FE004276EE /* CameraManager in Frameworks */,
 				D3FB2E6A2A13868D009162CD /* FirebaseABTesting in Frameworks */,
 				7F9AEFA72A01020C006CB67C /* AnyCodable in Frameworks */,
 				D3FB2E8A2A13868D009162CD /* Google-Mobile-Ads-SDK in Frameworks */,
-				7FA83AF02A0130B0004276EE /* Algorithms in Frameworks */,
-				7FA83B0B2A01328D004276EE /* CalendarKit in Frameworks */,
 				D33EBD232A0BB5E6008BFF45 /* RealmSwift in Frameworks */,
-				7FA83AE12A012E02004276EE /* YouTubeKit in Frameworks */,
 				7FA83AAC2A011A7E004276EE /* Lottie in Frameworks */,
 				7FA83B052A013201004276EE /* NukeVideo in Frameworks */,
 				D3FB2E862A13868D009162CD /* FirebaseRemoteConfig in Frameworks */,
 				7FA83AB82A011DC0004276EE /* libwebp in Frameworks */,
 				D3FB2E882A13868D009162CD /* FirebaseStorage in Frameworks */,
 				D3FB2E6E2A13868D009162CD /* FirebaseAppCheck in Frameworks */,
-				7F9AEFAA2A010235006CB67C /* openssl_grpc in Frameworks */,
-				7FA83B142A013441004276EE /* BonMot in Frameworks */,
-				7FA83AE72A012F58004276EE /* SnapKit in Frameworks */,
 				D3FB2E8C2A13868D009162CD /* GoogleSignIn in Frameworks */,
 				D3FB2E7A2A13868D009162CD /* FirebaseFirestore in Frameworks */,
-				7FA83B172A0134E4004276EE /* FileKit in Frameworks */,
 				D3FB2E7E2A13868D009162CD /* FirebaseInAppMessaging in Frameworks */,
-				7FA83B112A0133DC004276EE /* SkyFloatingLabelTextField in Frameworks */,
 				7FA83B012A013201004276EE /* NukeExtensions in Frameworks */,
 				7FA83B032A013201004276EE /* NukeUI in Frameworks */,
 				D33EBD262A0BE726008BFF45 /* MySPMPackage in Frameworks */,
-				7FA83AED2A012FFF004276EE /* Cache in Frameworks */,
 				D3FB2E842A13868D009162CD /* FirebasePerformance in Frameworks */,
 				7FA83B1A2A013511004276EE /* Wave in Frameworks */,
 				D3FB2E672A128AEC009162CD /* Moya in Frameworks */,
@@ -137,20 +112,15 @@
 				D33EBD212A0BB5E6008BFF45 /* Realm in Frameworks */,
 				D3FB2E6C2A13868D009162CD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
 				D3FB2E802A13868D009162CD /* FirebaseMLModelDownloader in Frameworks */,
-				7FA83AFC2A0131B5004276EE /* SwiftySound in Frameworks */,
 				D3FB2E7C2A13868D009162CD /* FirebaseFunctions in Frameworks */,
 				D3FB2E722A13868D009162CD /* FirebaseAuth in Frameworks */,
-				7FA83AE42A012F20004276EE /* NetworkDebugger in Frameworks */,
-				7FA83AEA2A012FC6004276EE /* Color in Frameworks */,
 				D3FB2E762A13868D009162CD /* FirebaseDatabase in Frameworks */,
 				7FA83B1D2A0135B0004276EE /* Progress in Frameworks */,
 				D3FB2E782A13868D009162CD /* FirebaseDynamicLinks in Frameworks */,
 				D3FB2E702A13868D009162CD /* FirebaseAppDistribution in Frameworks */,
-				7F9AEFB02A01038F006CB67C /* CryptoSwift in Frameworks */,
 				7FA83AFF2A013201004276EE /* Nuke in Frameworks */,
 				D3FB2E742A13868D009162CD /* FirebaseCrashlytics in Frameworks */,
 				7FA83AF62A013147004276EE /* SwiftDate in Frameworks */,
-				7FA83B0E2A0132AD004276EE /* FloatingPanel in Frameworks */,
 				D3FB2E822A13868D009162CD /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,29 +211,14 @@
 			name = TestOptimizeBuild;
 			packageProductDependencies = (
 				7F9AEFA62A01020C006CB67C /* AnyCodable */,
-				7F9AEFA92A010235006CB67C /* openssl_grpc */,
-				7F9AEFAF2A01038F006CB67C /* CryptoSwift */,
 				7FA83AAB2A011A7E004276EE /* Lottie */,
 				7FA83AB72A011DC0004276EE /* libwebp */,
-				7FA83AE02A012E02004276EE /* YouTubeKit */,
-				7FA83AE32A012F20004276EE /* NetworkDebugger */,
-				7FA83AE62A012F58004276EE /* SnapKit */,
-				7FA83AE92A012FC6004276EE /* Color */,
-				7FA83AEC2A012FFF004276EE /* Cache */,
-				7FA83AEF2A0130B0004276EE /* Algorithms */,
-				7FA83AF22A0130FE004276EE /* CameraManager */,
 				7FA83AF52A013147004276EE /* SwiftDate */,
-				7FA83AFB2A0131B5004276EE /* SwiftySound */,
 				7FA83AFE2A013201004276EE /* Nuke */,
 				7FA83B002A013201004276EE /* NukeExtensions */,
 				7FA83B022A013201004276EE /* NukeUI */,
 				7FA83B042A013201004276EE /* NukeVideo */,
 				7FA83B072A013242004276EE /* SCNLine */,
-				7FA83B0A2A01328D004276EE /* CalendarKit */,
-				7FA83B0D2A0132AD004276EE /* FloatingPanel */,
-				7FA83B102A0133DC004276EE /* SkyFloatingLabelTextField */,
-				7FA83B132A013441004276EE /* BonMot */,
-				7FA83B162A0134E4004276EE /* FileKit */,
 				7FA83B192A013511004276EE /* Wave */,
 				7FA83B1C2A0135B0004276EE /* Progress */,
 				D33EBD202A0BB5E6008BFF45 /* Realm */,
@@ -363,26 +318,11 @@
 			mainGroup = 7FACFE5B29FAB61A00896B3D;
 			packageReferences = (
 				7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */,
-				7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */,
-				7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */,
 				7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */,
 				7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */,
-				7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */,
-				7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */,
-				7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */,
-				7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */,
-				7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */,
-				7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */,
-				7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */,
 				7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */,
-				7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */,
 				7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */,
 				7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */,
-				7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */,
-				7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */,
-				7FA83B0F2A0133DC004276EE /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */,
-				7FA83B122A013441004276EE /* XCRemoteSwiftPackageReference "BonMot" */,
-				7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */,
 				7FA83B182A013511004276EE /* XCRemoteSwiftPackageReference "Wave" */,
 				7FA83B1B2A0135B0004276EE /* XCRemoteSwiftPackageReference "Progress.swift" */,
 				D33EBD1F2A0BB5E6008BFF45 /* XCRemoteSwiftPackageReference "realm-swift" */,
@@ -787,22 +727,6 @@
 				minimumVersion = 0.6.7;
 			};
 		};
-		7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/boringssl-SwiftPM.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.1;
-			};
-		};
-		7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/krzyzanowskim/CryptoSwift.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
 		7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
@@ -819,76 +743,12 @@
 				minimumVersion = 1.0.0;
 			};
 		};
-		7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/alexeichhorn/YouTubeKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.1.8;
-			};
-		};
-		7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SchwarzIT/swift-network-debugger.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-		7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/lipka/Color.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.2.1;
-			};
-		};
-		7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/hyperoslo/Cache.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
-		7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apple/swift-algorithms.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/imaginary-cloud/CameraManager.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
 		7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 7.0.0;
-			};
-		};
-		7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/adamcichy/SwiftySound.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
 			};
 		};
 		7FA83AFD2A013201004276EE /* XCRemoteSwiftPackageReference "Nuke" */ = {
@@ -905,46 +765,6 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 1.0.0;
-			};
-		};
-		7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/richardtop/CalendarKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.0.0;
-			};
-		};
-		7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SCENEE/FloatingPanel.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.0.0;
-			};
-		};
-		7FA83B0F2A0133DC004276EE /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Skyscanner/SkyFloatingLabelTextField.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 4.0.0;
-			};
-		};
-		7FA83B122A013441004276EE /* XCRemoteSwiftPackageReference "BonMot" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Rightpoint/BonMot.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
-		7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/nvzqz/FileKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
 			};
 		};
 		7FA83B182A013511004276EE /* XCRemoteSwiftPackageReference "Wave" */ = {
@@ -1003,16 +823,6 @@
 			package = 7F9AEFA52A01020C006CB67C /* XCRemoteSwiftPackageReference "anycodable" */;
 			productName = AnyCodable;
 		};
-		7F9AEFA92A010235006CB67C /* openssl_grpc */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7F9AEFA82A010235006CB67C /* XCRemoteSwiftPackageReference "boringssl-SwiftPM" */;
-			productName = openssl_grpc;
-		};
-		7F9AEFAF2A01038F006CB67C /* CryptoSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7F9AEFAE2A01038F006CB67C /* XCRemoteSwiftPackageReference "CryptoSwift" */;
-			productName = CryptoSwift;
-		};
 		7FA83AAB2A011A7E004276EE /* Lottie */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AAA2A011A7E004276EE /* XCRemoteSwiftPackageReference "lottie-ios" */;
@@ -1023,50 +833,10 @@
 			package = 7FA83AB62A011DC0004276EE /* XCRemoteSwiftPackageReference "libwebp-Xcode" */;
 			productName = libwebp;
 		};
-		7FA83AE02A012E02004276EE /* YouTubeKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83ADF2A012E02004276EE /* XCRemoteSwiftPackageReference "YouTubeKit" */;
-			productName = YouTubeKit;
-		};
-		7FA83AE32A012F20004276EE /* NetworkDebugger */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AE22A012F20004276EE /* XCRemoteSwiftPackageReference "swift-network-debugger" */;
-			productName = NetworkDebugger;
-		};
-		7FA83AE62A012F58004276EE /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AE52A012F58004276EE /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		7FA83AE92A012FC6004276EE /* Color */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AE82A012FC6004276EE /* XCRemoteSwiftPackageReference "Color" */;
-			productName = Color;
-		};
-		7FA83AEC2A012FFF004276EE /* Cache */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AEB2A012FFF004276EE /* XCRemoteSwiftPackageReference "Cache" */;
-			productName = Cache;
-		};
-		7FA83AEF2A0130B0004276EE /* Algorithms */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AEE2A0130B0004276EE /* XCRemoteSwiftPackageReference "swift-algorithms" */;
-			productName = Algorithms;
-		};
-		7FA83AF22A0130FE004276EE /* CameraManager */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AF12A0130FE004276EE /* XCRemoteSwiftPackageReference "CameraManager" */;
-			productName = CameraManager;
-		};
 		7FA83AF52A013147004276EE /* SwiftDate */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83AF42A013147004276EE /* XCRemoteSwiftPackageReference "SwiftDate" */;
 			productName = SwiftDate;
-		};
-		7FA83AFB2A0131B5004276EE /* SwiftySound */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83AFA2A0131B5004276EE /* XCRemoteSwiftPackageReference "SwiftySound" */;
-			productName = SwiftySound;
 		};
 		7FA83AFE2A013201004276EE /* Nuke */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -1092,31 +862,6 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7FA83B062A013242004276EE /* XCRemoteSwiftPackageReference "SceneKit-SCNLine" */;
 			productName = SCNLine;
-		};
-		7FA83B0A2A01328D004276EE /* CalendarKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83B092A01328D004276EE /* XCRemoteSwiftPackageReference "CalendarKit" */;
-			productName = CalendarKit;
-		};
-		7FA83B0D2A0132AD004276EE /* FloatingPanel */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83B0C2A0132AD004276EE /* XCRemoteSwiftPackageReference "FloatingPanel" */;
-			productName = FloatingPanel;
-		};
-		7FA83B102A0133DC004276EE /* SkyFloatingLabelTextField */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83B0F2A0133DC004276EE /* XCRemoteSwiftPackageReference "SkyFloatingLabelTextField" */;
-			productName = SkyFloatingLabelTextField;
-		};
-		7FA83B132A013441004276EE /* BonMot */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83B122A013441004276EE /* XCRemoteSwiftPackageReference "BonMot" */;
-			productName = BonMot;
-		};
-		7FA83B162A0134E4004276EE /* FileKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 7FA83B152A0134E4004276EE /* XCRemoteSwiftPackageReference "FileKit" */;
-			productName = FileKit;
 		};
 		7FA83B192A013511004276EE /* Wave */ = {
 			isa = XCSwiftPackageProductDependency;
